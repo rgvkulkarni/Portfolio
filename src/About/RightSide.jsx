@@ -56,19 +56,27 @@ function RightSide() {
           </li>
           <li>
             <img src={arrow} className="arrow" alt="bullet-point-arrow-style" />
-            <p>React</p>
+            <p>ReactJS</p>
           </li>
           <li>
             <img src={arrow} className="arrow" alt="bullet-point-arrow-style" />
-            <p>Tailwind</p>
+            <p>NodeJS</p>
           </li>
           <li>
             <img src={arrow} className="arrow" alt="bullet-point-arrow-style" />
-            <p>Figma</p>
+            <p>ExpressJS</p>
           </li>
           <li>
             <img src={arrow} className="arrow" alt="bullet-point-arrow-style" />
             <p>Git and GitHub</p>
+          </li>
+          <li>
+            <img src={arrow} className="arrow" alt="bullet-point-arrow-style" />
+            <p>Python</p>
+          </li>
+          <li>
+            <img src={arrow} className="arrow" alt="bullet-point-arrow-style" />
+            <p>Django</p>
           </li>
         </ul>
       </div>

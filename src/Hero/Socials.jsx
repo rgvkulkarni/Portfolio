@@ -6,15 +6,15 @@ function Socials() {
   let socialsData = [
     {
       image: GithubLogo,
-      url: "https://github.com/Sushants-Git",
+      url: "https://github.com/rgvkulkarni",
     },
     {
       image: TwitterLogo,
-      url: "https://twitter.com/sushantstwt",
+      url: "https://twitter.com/rgvkulkarni",
     },
     {
       image: LinkedinLogo,
-      url: "https://www.linkedin.com/in/sushants-li/",
+      url: "https://www.linkedin.com/in/rgvkulkarni/",
     },
   ];
   return (

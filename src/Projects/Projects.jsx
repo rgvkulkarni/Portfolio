@@ -1,5 +1,6 @@
 import KeeperImage from "./Images/Keeper.png";
 import YoutubeController from "./Images/Youtube Controller.png";
+import vercelpic from "./Images/vercelpic.png"
 import DejaVu from "./Images/Deja Vu.png";
 import MovieWatchlist from "./Images/Movie Watchlist.png";
 import Portfolio from "./Images/Portfolio.png";
@@ -16,45 +17,44 @@ import { useLayoutEffect } from "react";
 
 const projects = [
   {
-    imagePath: DejaVu,
-    projectName: "Deja Vu",
+    imagePath: vercelpic,
+    projectName: "Vercel-clone",
     projectText:
-      "Never struggle to remember your bookmarks again! Deja Vu, an AI-powered Chrome extension, seamlessly finds bookmarks—just jot down any vague details, and it effortlessly locates them for you.",
-    toolsUsed: ["JS", "Chrome API"],
-    LinkImage: [YoutubeImage, GithubImage],
+      "Built the clone version of the Vercel application which helps you to deploy your personal projects into the cloud",
+    toolsUsed: ["NodeJS", "ReactJS", "Typescript", "Vite"],
+    LinkImage: [GithubImage],
     Link: [
-      "https://www.youtube.com/watch?v=1E9y_XeGhkY&t=4s",
-      "https://github.com/Sushants-Git/Deja-Vu",
+      "https://github.com/rgvkulkarni/vercel-clone.git",
     ],
-    Live: "https://www.youtube.com/watch?v=1E9y_XeGhkY&t=4s",
+    Live: "https://vercel-clone-i3f6.vercel.app/",
   },
-  {
-    imagePath: KeeperImage,
-    projectName: "Keeper",
-    projectText:
-      "Keeper is a markdown editor and previewer. Many existing editors were bolted with features, still lacking functionalities like text-to-speech and comprehensive code syntax highlighting. So, to solve this i built keeper!!",
-    toolsUsed: ["React", "Figma"],
-    LinkImage: [YoutubeImage, GithubImage, LiveLink],
-    Link: [
-      "https://www.youtube.com/watch?v=e6AruCsCuew",
-      "https://github.com/Sushants-Git/keeper",
-      "https://keeper-sushant.netlify.app/",
-    ],
-    Live: "https://www.youtube.com/watch?v=e6AruCsCuew",
-  },
-  {
-    imagePath: YoutubeController,
-    projectName: "Youtube Controller",
-    projectText:
-      "Do you ever struggle with managing numerous open tabs, especially when one of them contains a YouTube video playing music or a podcast? It's frustrating to find and control that specific tab. To make your life easier, I've created a Chrome extension to solve this problem!",
-    toolsUsed: ["JS", "Chrome API"],
-    LinkImage: [YoutubeImage, GithubImage],
-    Link: [
-      "https://www.youtube.com/watch?v=thTurAtNi2I",
-      "https://github.com/Sushants-Git/Youtube-Controller",
-    ],
-    Live: "https://www.youtube.com/watch?v=thTurAtNi2I",
-  },
+  // {
+  //   imagePath: KeeperImage,
+  //   projectName: "Keeper",
+  //   projectText:
+  //     "Keeper is a markdown editor and previewer. Many existing editors were bolted with features, still lacking functionalities like text-to-speech and comprehensive code syntax highlighting. So, to solve this i built keeper!!",
+  //   toolsUsed: ["React", "Figma"],
+  //   LinkImage: [YoutubeImage, GithubImage, LiveLink],
+  //   Link: [
+  //     "https://www.youtube.com/watch?v=e6AruCsCuew",
+  //     "https://github.com/Sushants-Git/keeper",
+  //     "https://keeper-sushant.netlify.app/",
+  //   ],
+  //   Live: "https://www.youtube.com/watch?v=e6AruCsCuew",
+  // },
+  // {
+  //   imagePath: YoutubeController,
+  //   projectName: "Youtube Controller",
+  //   projectText:
+  //     "Do you ever struggle with managing numerous open tabs, especially when one of them contains a YouTube video playing music or a podcast? It's frustrating to find and control that specific tab. To make your life easier, I've created a Chrome extension to solve this problem!",
+  //   toolsUsed: ["JS", "Chrome API"],
+  //   LinkImage: [YoutubeImage, GithubImage],
+  //   Link: [
+  //     "https://www.youtube.com/watch?v=thTurAtNi2I",
+  //     "https://github.com/Sushants-Git/Youtube-Controller",
+  //   ],
+  //   Live: "https://www.youtube.com/watch?v=thTurAtNi2I",
+  // },
   // {
   //   imagePath: Portfolio,
   //   projectName: "Portfolio",

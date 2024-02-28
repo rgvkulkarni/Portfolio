@@ -4,11 +4,11 @@ function Scroll() {
   return (
     <div className="scroll">
       <div className="scroll-text">
-        S{"  "}C{"  "}R{"  "}O{"  "}L{"  "}L
+        {/* S{"  "}C{"  "}R{"  "}O{"  "}L{"  "}L */}
       </div>
-      <div>
+      {/* <div>
         <img className="scroll-line" src={scroll} alt="scroll" />
-      </div>
+      </div> */}
     </div>
   );
 }

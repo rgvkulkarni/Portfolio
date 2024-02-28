@@ -49,21 +49,21 @@ function LeftSide() {
       </div>
       <div className="left-side-content">
         <p>
-          Everyone has their superpower,
+          100x Full stack Dev,
           <br />
-          For some, it's <span className="pink-gradient">Music</span>;
+          With <span className="pink-gradient">2+ years of experience</span>
           <br />
-          For others, it's <span className="blue-gradient">Sports</span>;
+          In Building <span className="blue-gradient">Web applications</span>;
           <br />
           For me?
           <br />
-          It has always been <span className="green-gradient">Computers</span>.
+          It has always being <span className="green-gradient">curious about Computers</span>.
         </p>
         <br />
         <p>
           I love <span className="pink-gradient">building stuff</span>, <span className="blue-gradient">learning new things</span>, <span className="green-gradient">meeting new people</span>. I just
           love tech in general. So, if you have something cool to build feel
-          free to reach out!!
+          free to reach out to me!!
         </p>
       </div>
     </div>

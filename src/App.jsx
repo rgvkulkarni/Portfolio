@@ -2,7 +2,7 @@ import Navbar from "./Navbar/Navbar.jsx";
 import Hero from "./Hero/Hero.jsx";
 import About from "./About/About.jsx";
 import Projects from "./Projects/Projects.jsx";
-import Designs from "./Designs/Designs.jsx";
+//import Designs from "./Designs/Designs.jsx";
 import Footer from "./Footer/Footer.jsx";
 import useWindowDimensions from "./CustomHooks/useWindowDimensions.jsx";
 import "./App.css";
@@ -100,7 +100,6 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <Designs />
       <Footer />
     </>
   );

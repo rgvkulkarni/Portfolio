@@ -6,20 +6,20 @@ function Footer() {
   let socialsData = [
     {
       image: GithubLogo,
-      url: "https://github.com/Sushants-Git",
+      url: "https://github.com/rgvkulkarni",
     },
     {
       image: TwitterLogo,
-      url: "https://twitter.com/sushantstwt",
+      url: "https://twitter.com/rgvkulkarni",
     },
     {
       image: LinkedinLogo,
-      url: "https://www.linkedin.com/in/sushants-li/",
+      url: "https://www.linkedin.com/in/rgvkulkarni/",
     },
   ];
   return (
     <footer className="footer">
-      <p>&copy; 2023 Sushant Mishra</p>
+      <p>&copy; 2024 Raghavendra kulkarni</p>
       <div className="socials-wrapper-footer">
         {socialsData.map((social) => (
           <a key={`${social.url}-Footer`} href={social.url} target="_blank">

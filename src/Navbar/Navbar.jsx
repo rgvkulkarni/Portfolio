@@ -12,7 +12,6 @@ function Navbar({ menuOnClick }) {
     const sectionId = e.target.parentNode.getAttribute("href").substring(1);
     if (
       sectionId === "about" ||
-      sectionId === "projects" ||
       sectionId === "designs"
     ) {
       e.preventDefault();
@@ -36,13 +35,11 @@ function Navbar({ menuOnClick }) {
             <a href="#projects">
               <li>Projects</li>
             </a>
-            <a href="#designs">
-              <li>Designs</li>
+            
+            <a href="https://drive.google.com/file/d/1ttXrNy7wKx6J_BWFI-lTS_H75Cqih-bb/view" target="_blank">
+              <li>Resume</li>
             </a>
-            <a href="https://sushantshash.hashnode.dev/" target="_blank">
-              <li>Blogs</li>
-            </a>
-            <a href="mailto:sushantsgml@gmail.com">
+            <a href="mailto:rgvkulkarni@gmail.com">
               <li className="bold contact-me">Say Hello</li>
             </a>
           </ul>
@@ -58,15 +55,13 @@ function Navbar({ menuOnClick }) {
               <a href="#projects">
                 <li>Projects</li>
               </a>
-              <a href="#designs">
-                <li>Designs</li>
-              </a>
-              <a href="https://sushantshash.hashnode.dev/" target="_blank">
+              
+              {/* <a href="https://sushantshash.hashnode.dev/" target="_blank">
                 <li>Blogs</li>
-              </a>
-              <a href="mailto:sushantsgml@gmail.com">
+              </a> */}
+              {/* <a href="mailto:rgvkulkarni@gmail.com">
                 <li className="bold contact-me">Say Hello</li>
-              </a>
+              </a> */}
             </ul>
           </div>
         </div>

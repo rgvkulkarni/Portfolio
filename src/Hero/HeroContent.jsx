@@ -3,20 +3,22 @@ function HeroContent() {
     <div className="hero-content">
       <div className="intro-main">
         <div className="intro-main-container">
+          <p>  ....</p>
+            
           <p>Hi, my</p>
           <p>
             name is{" "}
-            <span className="space blue-gradient desktop-name">Sushant.</span>
+            <span className="space blue-gradient desktop-name">Raghavendra.</span>
           </p>
         </div>
-        <span className="space blue-gradient mobile-name">Sushant.</span>
+        <span className="space blue-gradient mobile-name">Raghavendra.</span>
       </div>
       <div className="intro-extra">
         <p>
-          I'm a <span className="space pink-gradient">developer</span> and{" "}
-          <span className="space green-gradient">designer</span> from
+          I'm a <span className="space pink-gradient">developer</span>{" "}
+          <span className="space green-gradient"></span> from
         </p>
-        <p>Telangana, India.</p>
+        <p>karnataka, India.</p>
       </div>
     </div>
   );
