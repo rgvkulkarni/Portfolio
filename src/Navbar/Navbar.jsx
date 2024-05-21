@@ -36,7 +36,7 @@ function Navbar({ menuOnClick }) {
               <li>Projects</li>
             </a>
             
-            <a href="https://drive.google.com/file/d/1ttXrNy7wKx6J_BWFI-lTS_H75Cqih-bb/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1NdiGDMsgR5pcUWxerZLdsLjkXytRMHzw/view?usp=sharing" target="_blank">
               <li>Resume</li>
             </a>
             <a href="mailto:rgvkulkarni@gmail.com">
